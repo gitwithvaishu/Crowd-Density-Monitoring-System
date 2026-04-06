@@ -12,7 +12,7 @@ class DashboardScreen extends StatefulWidget {
 }
 
 class _DashboardScreenState extends State<DashboardScreen> {
-  final String wsUrl = 'ws://192.168.31.5:3000/flutter';
+  final String wsUrl = 'wss://crowd-density-monitoring-system-backend.onrender.com/flutter';
 
   WebSocketChannel? _channel;
 
